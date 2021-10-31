@@ -8,7 +8,6 @@ function App() {
           <source src={backgroundVideo} type="video/mp4" />
       </video>
 
-      <a href="pack.com">LINK</a>
     </div>
   );
 }
