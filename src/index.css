@@ -1,3 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: url("./assets/cursor/paperplane-sm.png"), auto;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    cursor: url("./assets/cursor/rocket-sm.png"), auto;
+}
+
+
 .bg-vid{
     position: absolute;
     width: 100%;

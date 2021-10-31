@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import backgroundVideo from './components/BackgroundVideo/FallingStars.mp4';
-import CustomCursor from './components/CustomCursor';
 
 function App() {
   return (
@@ -9,8 +8,7 @@ function App() {
           <source src={backgroundVideo} type="video/mp4" />
       </video>
 
-      <CustomCursor />
-      
+      <a href="pack.com">LINK</a>
     </div>
   );
 }
