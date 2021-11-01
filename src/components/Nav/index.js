@@ -16,7 +16,7 @@ const Navigation = () => {
                         <Offcanvas.Title id="offcanvasNavbarLabel"></Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                        <Nav className="links-bar">
                             <Nav.Link href="#About" className="navigation-link">About</Nav.Link>
                             <Nav.Link href="#Projects" className="navigation-link">Projects</Nav.Link>
                             <Nav.Link href="#Contact" className="navigation-link">Contact</Nav.Link>
