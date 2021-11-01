@@ -1,3 +1,12 @@
+:root{
+    --dark-grey: #132E32;
+    --dark-blue: #0A2239;
+    --medium-blue: #176087;
+    --light-md-blue: #1D84B5;
+    --light-blue: #53A2BE;
+    --trans-white: rgba(255,255,255,.2);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -10,8 +19,12 @@ li{
 
 a{
     text-decoration: none;
-    cursor: url("./assets/cursor/paperplane-sm.png"), auto;
+    cursor: url("./assets/cursor/paperplane-sm.png"), auto !important;
+}
 
+button{
+    text-decoration: none;
+    cursor: url("./assets/cursor/paperplane-sm.png"), auto !important;
 }
 
 html{
@@ -34,5 +47,30 @@ html{
 body{
     font-family: Helvetica, Arial, sans-serif;
     color: white;
-    font-size: 200px;
+}
+/* General Page CSS Ends */
+
+/* NAV STYLES BEGIN */
+.sandwich{
+    background-color: var(--trans-white);
+}
+
+.navigation-link{
+    color: var(--dark-blue);
+    font-size: 1.12rem;
+}
+
+#offcanvasNavbar{
+    background-color: aliceblue;
+}
+/* NAV STYLES END */
+
+
+.section-title {
+    margin: 12px 0 0 0;
+    padding: 6px 20px 5px 24px;
+    color: var(--primary-color);
+    border-radius: 0 1px 15px 0;
+    width: fit-content;
+    background: rgba(255, 255, 255, .2);
 }

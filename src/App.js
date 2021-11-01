@@ -11,8 +11,9 @@ function App() {
           <source src={backgroundVideo} type="video/mp4" />
       </video>
 
+      <Nav />
       <About />
-      
+
     </div>
   );
 }
