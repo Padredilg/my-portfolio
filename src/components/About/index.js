@@ -3,8 +3,6 @@ import euaBrazil from "../../assets/images/eua-brazil.jpg"
 import pbscLit from "../../assets/images/pbsc-lit.png"
 import ucfLogo from "../../assets/images/UCF-logo2.png"
 
-
-
 function About() {
 	return (
 		<section className="section-light about-section">
@@ -18,10 +16,7 @@ function About() {
 					</p>
 
 					<p>
-						<span className="indentation">-----</span>I grew up in Sao Paulo, Brazil, and moved to the US back in 2016. I graduated from Monarch High School 2 years later, but, due to financial hardship and other obstacles that I faced as an immigrant, I was unable to start college right after. So, I joined the work-force and took whatever jobs were available for me. That included: waiter, car-wash attendant, construction employee, night-shift restaurant cleaner, and whatever else was available. 
-					</p>
-					<p>
-						<span className="indentation">-----</span>I finally joined Eco Printing when it was founded in November of 2017 as its production specialist, and later became their production manager. <span className="obs-text">(OBS.: I took the challenge to learn everything through trial and error, and I succeeded)</span>. This job gave me the opportunity to start my college career in January of 2019!
+						<span className="indentation">-----</span>I grew up in Sao Paulo, Brazil, and moved to the US back in 2014. I graduated from Monarch High School 2 years later, but, due to financial hardship and other obstacles that I faced as an immigrant, I was unable to start college at the time. Therefore, I joined the work-force and took whatever jobs were available for me. That included: waiter/server, car-wash attendant, construction employee, and night-shift restaurant-cleaner. By November of 2017 I joined Eco Printing Corp. After saving for a year, I was able to start my college career in January of 2019!
 					</p>
 				</div>
 
