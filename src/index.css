@@ -6,33 +6,29 @@
     --light-blue: #53A2BE;
     --trans-white: rgba(255,255,255,.2);
 }
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 li{
     list-style: none;
 }
-
 a{
     text-decoration: none;
     cursor: url("./assets/cursor/paperplane-sm.png"), auto !important;
 }
-
+p{
+    margin: 0;
+}
 button{
     text-decoration: none;
     cursor: url("./assets/cursor/paperplane-sm.png"), auto !important;
 }
-
 html{
     scroll-behavior: smooth;
     cursor: url("./assets/cursor/rocket-sm.png"), auto;
 }
-
-
 .bg-vid{
     position: fixed;
     width: 100%;
@@ -43,18 +39,17 @@ html{
     transform: translate(-50%, -50%);
     z-index: -1;
 }
-
 body{
     font-family: Helvetica, Arial, sans-serif;
-    color: white;
+    color: azure;
 }
 /* General Page CSS Ends */
+
 
 /* NAV STYLES BEGIN */
 .sandwich{
     background-color: var(--trans-white);
 }
-
 .links-bar {
     display: flex;
     flex-direction: column;
@@ -62,7 +57,6 @@ body{
     font-size: 1.75rem;
     width: 100%;
 }
-
 .navigation-link {
     text-align: center;
     width: 100%;
@@ -71,27 +65,17 @@ body{
     border: solid 2px rgb(10 34 57 / 50%);
     padding: 10px 0;
 }
-
 .navigation-link:hover{
     color: var(--light-blue);
     border: solid 2px var(--light-blue);
 }
-
 #offcanvasNavbar{
     background-color: aliceblue;
 }
 /* NAV STYLES END */
 
 
-.section-title {
-    margin: 12px 0 0 0;
-    padding: 6px 20px 5px 24px;
-    color: var(--primary-color);
-    border-radius: 0 1px 15px 0;
-    width: fit-content;
-    background: rgba(255, 255, 255, .2);
-}
-
+/* HOME STYLES START */
 .home{
     display: flex;
     flex-direction: column;
@@ -99,25 +83,21 @@ body{
     padding: 5% 2%;
     background: rgba(0,0,0,.5);
 }
-
 .profile-pic{
     width: 350px;
     border-radius: 15px;
     margin: 0 0 30px 0;
     opacity: 85%;
 }
-
 .greeting{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: azure
+    color: azure;
 }
-
 .greeting span{
     color: var(--light-blue);
 }
-
 .know-more {
     border: solid 2px var(--light-blue);
     padding: 15px 110px;
@@ -125,8 +105,55 @@ body{
     color: var(--light-blue);
     margin: 10px 0 0 0;
 }
-
 .know-more:hover {
     border: solid 2px rgb(255 255 0 / 81%);
     color: rgba(255, 255, 0, 81%);
 }
+/* HOME STYLES END */
+
+
+/* SECTION STYLES START*/
+.section-light{
+    background-color: rgba(255,255,255, 5%);
+}
+.about-section{
+    color: white;
+}
+.section-title {
+    padding: 6px 20px 5px 24px;
+    color: var(--primary-color);
+    width: 100%;
+    background: rgba(10, 34, 57, 50%);;
+}
+/* SECTION STYLES END */
+
+/* ABOUT STYLES START */
+.about-wrapper {
+    padding: 1% 8%;
+    color: azure;
+}
+.about-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.about-box p{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.indentation{
+    opacity: 0;
+}
+.about-img{
+    width: 300px;
+    margin: 0 0 18px 0;
+    border-radius: 10px;
+}
+.obs-text{
+    color: var(--bs-cyan);
+}
+.obs-smiley{
+    color: greenyellow;
+}
+/* ABOUT STYLES END */
