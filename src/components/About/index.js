@@ -6,7 +6,7 @@ import ucfLogo from "../../assets/images/UCF-logo2.png"
 function About() {
 	return (
 		<section className="section-light about-section">
-			<h1 id='about' className="section-title">Who am I?</h1>
+			<h1 id='About' className="section-title">Who am I?</h1>
 
 			<div className="about-wrapper">
 				<div className="about-box">
@@ -34,6 +34,9 @@ function About() {
 						<span className="indentation">-----</span>After obtaining my AA at PBSC, I became a <span className="ucf-knight">UCF Knight</span> to further pursue my education as an Aerospace Engineer. One of the required courses towards my major was Intro to C, and it was then that I met coding, the second passion of my life. While I am still an Aerospace Engineering student, I decided to expand my coding experience by enrolling in the UCF Web Development Bootcamp, and that is how I became a Full-Stack Web Developer while still pursuing an Aerospace Engineering Degree.
 					</p>
 				</div>
+
+				<a href="#Creations" className="check-projects">Check my Creations</a>
+
 			</div>
 		</section>
 	);
