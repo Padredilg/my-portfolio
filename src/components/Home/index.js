@@ -6,9 +6,7 @@ import profilePic from '../../assets/images/profile-pic-helmet.png'
 const Home = () =>{
     return(
         <div className="home">
-            <video autoPlay loop muted className="bg-vid">
-                <source src={backgroundVideo} type="video/mp4" />
-            </video>
+            
             <img className="profile-pic" src={profilePic} alt="Luiz" />
             <div className="greeting">
                 <h1><span>Hi,</span> I'm Luiz!</h1>

@@ -103,8 +103,7 @@ header p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 2% 5% 2%;
-    background: rgba(0,0,0,.5);
+    padding: 15% 2% 5% 2%;
 }
 .profile-pic{
     width: 350px;
