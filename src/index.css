@@ -5,7 +5,6 @@
     --light-md-blue: #1D84B5;
     --light-blue: #53A2BE;
     --trans-white: rgba(255,255,255,.2);
-    --secondary-color: #ff2626;
 }
 *{
     padding: 0;
@@ -85,11 +84,11 @@ header p{
   }
   
   .background-header .main-nav .nav li:hover a {
-    color: var(--secondary-color)!important;
+    color: var(--bs-blue)!important;
   }
   
   .background-header .nav li a.active {
-    color: var(--secondary-color)!important;
+    color: var(--bs-blue)!important;
   }
   
   .header-area {
@@ -126,7 +125,7 @@ header p{
   
   .header-area .main-nav .logo em {
     font-style: normal;
-    color: var(--secondary-color);
+    color: var(--bs-blue);
     font-weight: 900;
   }
   
@@ -172,7 +171,7 @@ header p{
     display: inline-block;
     font-size: 13px;
     padding: 11px 17px;
-    background-color: var(--secondary-color);
+    background-color: var(--bs-blue);
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -190,13 +189,13 @@ header p{
   
   .header-area .main-nav .nav li:hover a,
   .header-area .main-nav .nav li a.active {
-    color: var(--secondary-color)!important;
+    color: var(--bs-blue)!important;
     opacity: 1;
   }
   
   .background-header .main-nav .nav li:hover a,
   .background-header .main-nav .nav li a.active {
-    color: var(--secondary-color)!important;
+    color: var(--bs-blue)!important;
     opacity: 1;
   }
   
@@ -320,7 +319,7 @@ header p{
   }
   
   .header-area.header-sticky .nav li a.active {
-    color: var(--secondary-color);
+    color: var(--bs-blue);
   }
   
   @media (max-width: 1200px) {
@@ -339,7 +338,7 @@ header p{
     }
     .header-area.header-sticky .nav li a:hover,
     .header-area.header-sticky .nav li a.active {
-      color: var(--secondary-color)!important;
+      color: var(--bs-blue)!important;
       opacity: 1;
     }
     .header-area {
@@ -376,15 +375,15 @@ header p{
     }
     .header-area .main-nav .nav li:last-child {
       width: 100%;
-      background-color: var(--secondary-color);
+      background-color: var(--bs-blue);
       color: #fff;
     }
     .header-area .main-nav .nav li:last-child a {
-      background-color: var(--secondary-color)!important;
+      background-color: var(--bs-blue)!important;
     }
     .header-area .main-nav .nav li:last-child a:hover,
     .header-area .main-nav .nav li:last-child:hover a {
-      background-color: var(--secondary-color)!important;
+      background-color: var(--bs-blue)!important;
       color: #fff!important;
     }
     .header-area.header-sticky .nav {
@@ -410,7 +409,7 @@ header p{
     }
     .header-area .main-nav .nav li a:hover {
       background: #eee !important;
-      color: var(--secondary-color)!important;
+      color: var(--bs-blue)!important;
     }
     .header-area .main-nav .nav li.submenu ul {
       position: relative;
@@ -502,7 +501,7 @@ header p{
 
 .main-banner .caption h2 em {
     font-style: normal;
-    color: var(--secondary-color);
+    color: var(--bs-blue);
     font-weight: 900;
 }
 
@@ -511,8 +510,8 @@ header p{
     font-size: 15px;
     padding: 12px 20px;
     /* background-color: #1c7aac; */
-    border: 3px solid var(--light-blue);
-    color: var(--light-blue);
+    border: 3px solid var(--bs-blue);
+    color: var(--bs-blue);
     text-align: center;
     font-weight: 400;
     text-transform: uppercase;
