@@ -5,13 +5,13 @@ const Navigation = (props) => {
     return (
 
         <header>
-            <a href="#Home" onClick={ ()=>{props.setCurrentPage('Home')}} className="navlinks">Home</a>
+            <a href="#Home" className="navlinks">Home</a>
             <p>|</p>
-            <a href="#About" onClick={ ()=>{props.setCurrentPage('About')}} className="navlinks">About</a>
+            <a href="#About" className="navlinks">About</a>
             <p>|</p>
-            <a href="#Creations" onClick={ ()=>{props.setCurrentPage('Creations')}} className="navlinks">Creations</a>
+            <a href="#Creations" className="navlinks">Creations</a>
             <p>|</p>
-            <a href="#Contact" onClick={ ()=>{props.setCurrentPage('Contact')}} className="navlinks">Contact</a>
+            <a href="#Contact" className="navlinks">Contact</a>
         </header>
 
         

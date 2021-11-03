@@ -1,21 +1,27 @@
-import React from "react";
-import backgroundVideo from '../BackgroundVideo/FallingStars.mp4';
+import fallingStars from '../../assets/video/FallingStars.mp4';
 
-import profilePic from '../../assets/images/profile-pic-helmet.png'
-
-const Home = () =>{
+const Home2 = ()=>{
+    
     return(
-        <div className="home">
-            
-            <img className="profile-pic" src={profilePic} alt="Luiz" />
-            <div className="greeting">
-                <h1><span>Hi,</span> I'm Luiz!</h1>
-                <h2>I develop softwares and create websites ;)</h2>
+        <div class="main-banner" id="top">
+        
+            <video autoPlay muted loop id="bg-video">
+                <source src={fallingStars} type="video/mp4" />
+            </video>
+
+            <div class="video-overlay header-text">
+                <div class="caption">
+                    <h6>( Full Stack Developer )</h6>
+                    <h2>Hi, I'm <em>Luiz</em></h2>
+                    <h6>I develop softwares and create websites ;)</h6>
+                    <div class="main-button">
+                        <a href="#About">Would you like to know more about me?</a>
+                    </div>
+                </div>
             </div>
-            <a className="know-more" href="#About">Would you like to know more about me?</a>
+
         </div>
     )
 }
 
-export default Home;
-
+export default Home2;
