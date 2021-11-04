@@ -17,6 +17,9 @@ const Home2 = ()=>{
                     <div class="main-button">
                         <a href="#About">Would you like to know more about me?</a>
                     </div>
+                    <div class="second-button">
+                        <a href="#Creations">Would you like to check my Creations?</a>
+                    </div>
                 </div>
             </div>
 

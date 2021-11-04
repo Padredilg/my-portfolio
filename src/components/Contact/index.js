@@ -14,16 +14,16 @@ function ContactForm() {
             // isValid conditional statement
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
-            } 
+            }
             else {
                 setErrorMessage('');
             }
         }
         else {
             if (!e.target.value.length) {
-              setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`${e.target.name} is required.`);
             } else {
-              setErrorMessage('');
+                setErrorMessage('');
             }
         }
 
@@ -38,8 +38,13 @@ function ContactForm() {
     }
 
     return (
-        <section>
-            <h1 id="Contact" >Contact me</h1>
+        <section className="section" id="Contact">
+
+            <div className="section-heading">
+                <h2>Conn<em>ect</em></h2>
+                <p>Do you like what I do? Would you like to work together or simply say hi? Send me a message below and will get back to you!</p>
+            </div>
+
             <form id="contact-form" onSubmit={handleSubmit}>
                 {/* Name */}
                 <div>

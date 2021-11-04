@@ -3,7 +3,7 @@
     --dark-blue: #0A2239;
     --medium-blue: #176087;
     --light-md-blue: #1D84B5;
-    --light-blue: #53A2BE;
+    --light-blue: #32adda;
     --trans-white: rgba(255,255,255,.2);
     --secondary-color: #e41717;
 }
@@ -99,7 +99,7 @@ body{
 /* NAV STYLES END */
 
 
-/* BANNER STYLES START */
+/* HOME STYLES START */
 .main-banner {
     position: relative;
 }
@@ -169,12 +169,37 @@ body{
     color: rgb(251, 255, 32);
     border: 3px solid rgb(251, 255, 32);
 }
-/* BANNER STYLES END */
+
+.second-button a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: 3px solid rgb(148, 220, 40);
+    color: rgb(148, 220, 40);
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.second-button a:hover {
+    color: rgb(251, 255, 32);
+    border: 3px solid rgb(251, 255, 32);
+}
+/* HOME STYLES END */
 
 
-/* FEATURES STARTS */
+/* SECTION STYLES START*/
+.section-title {
+    margin: auto;
+}
+/* SECTION STYLES END */
+
+
+/* ABOUT STARTS */
 #About {
-    margin-bottom: 80px;
+    margin-bottom: 5px;
     background-color: #060c14;
 }
 
@@ -215,6 +240,10 @@ body{
     color: lightgreen;
 }
 
+.ucf-knight{
+    color: yellow
+}
+
 @media screen and (max-width: 992px){
     .feature-item {
         display: flex;
@@ -231,9 +260,9 @@ body{
     text-align: center;
     margin-top: 55px;
     margin-bottom: 80px;
-  }
-  
-  .section-heading h2 {
+}
+
+.section-heading h2 {
     font-size: 28px;
     font-weight: 800;
     color: white;
@@ -242,71 +271,42 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
-  }
-  
-  .section-heading h2 em {
+}
+
+.section-heading h2 em {
     font-style: normal;
     color: var(--secondary-color);
-  }
-  
-  .section-heading img {
+}
+
+.section-heading img {
     margin: 20px auto;
-  }
-/* FEATURES END */
+}
 
-/* SECTION STYLES START*/
-.section-light{
-    background-color: rgba(255,255,255, 5%);
+.section-heading p{
+    padding: 0 4%;
 }
-.about-section{
-    color: white;
-}
-.section-title {
-    margin: auto;
-}
-/* SECTION STYLES END */
 
-/* ABOUT STYLES START */
-.about-wrapper {
-    padding: 1% 8%;
-    color: azure;
+.about-creation-btn{
     text-align: center;
-    padding-bottom: 45px;
-    background: #0d1923;
+    margin-bottom: 40px;
 }
-.about-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+/* ABOUT ENDS */
+
+
+/* CREATIONS STYLES START */
+#Creations{
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
 }
-.about-box p{
-    text-align: left;
-    margin-bottom: 15px;
+.section-heading .reversed-title{
+    color: var(--dark-blue);
 }
-.indentation{
-    opacity: 0;
+/* CREATIONS STYLES END */
+
+/* Contact STYLES START */
+#Contact{
+    margin-bottom: 5px;
+    background-color: #060c14;
 }
-.about-img{
-    width: 300px;
-    margin: 0 0 18px 0;
-    border-radius: 10px;
-}
-.obs-text{
-    color: var(--bs-cyan);
-}
-.obs-smiley{
-    color: greenyellow;
-}
-.check-projects {
-    border: solid 2px rgb(148, 220, 40);
-    padding: 15px 110px;
-    font-size: 1.25rem;
-    color: rgb(148, 220, 40);
-    margin: 10px 0 0 0;
-}
-.check-projects:hover {
-    border: solid 2px var(--light-blue);
-    color: var(--light-blue);
-}
-/* ABOUT STYLES END */
+/* Contact STYLES END */

@@ -3,10 +3,16 @@ import React from "react";
 
 const Creations= () =>{
     return(
-        <section>
-            <h1 id='Creations' className="section-title">Creations</h1>
+        <section class="section" id="Creations">
+            <div class="section-heading">
+                <h2 class="reversed-title">Creat<em>ions</em></h2>
+                <p>Check out some of the projects I developed</p>
+            </div>
             
-            Projects displaying
+
+
+
+            
         </section>
     )
 }
