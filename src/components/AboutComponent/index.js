@@ -1,31 +1,32 @@
-import React from "react";
+import brazilEua from '../../assets/images/USA-Brazil-flags.jpg'
+import pbsc from '../../assets/images/pbsc-lit2.png'
+import ucf from '../../assets/images/UCF-logo.png'
 
 const AboutComponent = () => {
     return (
         <section class="section" id="About">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
+                    <div class="col-lg-7 section-title">
                         <div class="section-heading">
                             <h2>About <em>Me</em></h2>
-                            {/* <img src="assets/images/line-dec.png" alt="waves"> */}
-                            <p>I am very passionate about Math and Coding. My passions led me to pursue an Aerospace Engineering Degree and a Full-Stack Web Development Certificate. Here goes some info about me!</p>
+                            <p>I am very passionate about Math and Coding. My passions led me to pursue an Aerospace Engineering Degree and a Full-Stack Web Development Certificate. Here's some info about me!</p>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <ul class="features-items">
                             <li class="feature-item">
                                 <div class="left-icon">
-                                    {/* <img src="assets/images/features-first-icon.png" alt="First One"> */}
+                                    <img src={brazilEua} alt="US flag mixed with Brazil's flag" />
                                 </div>
                                 <div class="right-content">
                                     <h4>How did I end up here?</h4>
-                                    <p>I grew up in Sao Paulo, Brazil, and moved to the US back in 2014. I graduated from Monarch High School 2 years later, but, due to financial hardship and other obstacles that I faced as an immigrant, I was unable to start college at the time. Therefore, I joined the work-force and took whatever jobs were available for me. That included: waiter/server, car-wash attendant, construction employee, and night-shift restaurant-cleaner. By November of 2017 I joined Eco Printing Corp. After saving for a year, I was able to start my college career in January of 2019!</p>
+                                    <p>I grew up in Sao Paulo, Brazil, and moved to the US back in 2014. I graduated from Monarch High School 2 years later, but, due to financial hardship and other obstacles that I faced as an immigrant, I was unable to start college at the time. Therefore, I joined the work-force and took whatever jobs were available for me. That included: waiter/server, car-wash attendant, construction employee, and night-shift restaurant-cleaner. By November of 2017 I joined Eco Printing Corp, and after saving for a little more than a year, I was able to start my college career in January of 2019!</p>
                                 </div>
                             </li>
                             <li class="feature-item">
                                 <div class="left-icon">
-                                    {/* <img src="assets/images/features-first-icon.png" alt="second one"> */}
+                                <img src={pbsc} alt="Palm Beach State College logo" />
                                 </div>
                                 <div class="right-content">
                                     <h4>Why Engineering?</h4>
@@ -34,7 +35,8 @@ const AboutComponent = () => {
                             </li>
                             <li class="feature-item">
                                 <div class="left-icon">
-                                    {/* <img src="assets/images/features-first-icon.png" alt="third gym training"> */}
+                                <img src={ucf} alt="Palm Beach State College logo" />
+
                                 </div>
                                 <div class="right-content">
                                     <h4>What Now?</h4>
