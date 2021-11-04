@@ -3,7 +3,7 @@ import fallingStars from '../../assets/video/FallingStars.mp4';
 const Home2 = ()=>{
     
     return(
-        <div class="main-banner" id="top">
+        <div class="main-banner" id="Home">
         
             <video autoPlay muted loop id="bg-video">
                 <source src={fallingStars} type="video/mp4" />
