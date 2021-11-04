@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavbarComp from './components/NavbarComp.js';
+import AboutComponent from './components/AboutComponent/index.js';
 
 import Home from './components/Home';
 import About from './components/About';
@@ -14,7 +15,7 @@ function App() {
       <NavbarComp />
       <main>
         <Home />
-        <About />
+        <AboutComponent />
         <Creations />
         <ContactForm />
       </main>

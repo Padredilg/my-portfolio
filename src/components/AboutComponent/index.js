@@ -2,26 +2,25 @@ import React from "react";
 
 const AboutComponent = () => {
     return (
-        <section class="section" id="features">
+        <section class="section" id="About">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
                         <div class="section-heading">
-                            <h2>Choose <em>Program</em></h2>
+                            <h2>About <em>Me</em></h2>
                             {/* <img src="assets/images/line-dec.png" alt="waves"> */}
-                            <p>Training Studio is free CSS template for gyms and fitness centers.You are allowed to use this layout for your business website.</p>
+                            <p>I am very passionate about Math and Coding. My passions led me to pursue an Aerospace Engineering Degree and a Full-Stack Web Development Certificate. Here goes some info about me!</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <ul class="features-items">
                             <li class="feature-item">
                                 <div class="left-icon">
                                     {/* <img src="assets/images/features-first-icon.png" alt="First One"> */}
                                 </div>
                                 <div class="right-content">
-                                    <h4>Basic Fitness</h4>
-                                    <p>Please do not re-distribute this template ZIP file on any template collection website. This is not allowed.</p>
-                                    <a href="#" class="text-button">Discover More</a>
+                                    <h4>How did I end up here?</h4>
+                                    <p>I grew up in Sao Paulo, Brazil, and moved to the US back in 2014. I graduated from Monarch High School 2 years later, but, due to financial hardship and other obstacles that I faced as an immigrant, I was unable to start college at the time. Therefore, I joined the work-force and took whatever jobs were available for me. That included: waiter/server, car-wash attendant, construction employee, and night-shift restaurant-cleaner. By November of 2017 I joined Eco Printing Corp. After saving for a year, I was able to start my college career in January of 2019!</p>
                                 </div>
                             </li>
                             <li class="feature-item">
@@ -29,9 +28,8 @@ const AboutComponent = () => {
                                     {/* <img src="assets/images/features-first-icon.png" alt="second one"> */}
                                 </div>
                                 <div class="right-content">
-                                    <h4>New Gym Training</h4>
-                                    <p>If you wish to support TemplateMo website via PayPal, please feel free to contact us. We appreciate it a lot.</p>
-                                    <a href="#" class="text-button">Discover More</a>
+                                    <h4>Why Engineering?</h4>
+                                    <p>When I started studying at Palm Beach State College I already knew that I would enjoy my STEM classes. However, I fell madly in love with Math when I took the first course of the Calculus trilogy, and at that moment I knew I had to become an Engineer! My efforts at keeping a 4.0 GPA as a <span className="full-word">full</span>-time engineering student and <span className="full-word">full</span>-time worker helped me obtain a <span className="full-word-success">full</span>-scholarship through the PBSC Foundation, and I will be forever grateful for their help.</p>
                                 </div>
                             </li>
                             <li class="feature-item">
@@ -39,43 +37,8 @@ const AboutComponent = () => {
                                     {/* <img src="assets/images/features-first-icon.png" alt="third gym training"> */}
                                 </div>
                                 <div class="right-content">
-                                    <h4>Basic Muscle Course</h4>
-                                    <p>Credit goes to <a rel="nofollow" href="https://www.pexels.com" target="_blank">Pexels website</a> for images and video background used in this HTML template.</p>
-                                    <a href="#" class="text-button">Discover More</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <ul class="features-items">
-                            <li class="feature-item">
-                                <div class="left-icon">
-                                    {/* <img src="assets/images/features-first-icon.png" alt="fourth muscle"> */}
-                                </div>
-                                <div class="right-content">
-                                    <h4>Advanced Muscle Course</h4>
-                                    <p>You may want to browse through <a rel="nofollow" href="https://templatemo.com/tag/digital-marketing" target="_parent">Digital Marketing</a> or <a href="https://templatemo.com/tag/corporate">Corporate</a> HTML CSS templates on our website.</p>
-                                    <a href="#" class="text-button">Discover More</a>
-                                </div>
-                            </li>
-                            <li class="feature-item">
-                                <div class="left-icon">
-                                    {/* <img src="assets/images/features-first-icon.png" alt="training fifth"> */}
-                                </div>
-                                <div class="right-content">
-                                    <h4>Yoga Training</h4>
-                                    <p>This template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
-                                    <a href="#" class="text-button">Discover More</a>
-                                </div>
-                            </li>
-                            <li class="feature-item">
-                                <div class="left-icon">
-                                    {/* <img src="assets/images/features-first-icon.png" alt="gym training"> */}
-                                </div>
-                                <div class="right-content">
-                                    <h4>Body Building Course</h4>
-                                    <p>Suspendisse fringilla et nisi et mattis. Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.</p>
-                                    <a href="#" class="text-button">Discover More</a>
+                                    <h4>What Now?</h4>
+                                    <p>After obtaining my AA at PBSC, I became a <span className="ucf-knight">UCF Knight</span> to further pursue my education as an Aerospace Engineer. One of the required courses towards my major was Intro to C, and it was then that I met coding, the second passion of my life. While I am still an Aerospace Engineering student, I decided to expand my coding experience by enrolling in the UCF Web Development Bootcamp, and that is how I became a Full-Stack Web Developer while still pursuing an Aerospace Engineering Degree.</p>
                                 </div>
                             </li>
                         </ul>

@@ -37,7 +37,7 @@ body{
 
 /* NAV STYLES BEGIN */
 .navbar-style{
-    background-color: rgba(255,255,255, 10%);
+    background-color: rgba(0, 0, 0, 0.75);
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -48,7 +48,7 @@ body{
     font-size: 32px;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{
     color: white;
 }
 
@@ -76,7 +76,7 @@ body{
     transition: all 0.3s ease 0s;
 }
 
-.navbar-light:hover .navbar-nav:hover .nav-link:hover{
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover{
     color: var(--secondary-color)
 }
 
@@ -92,7 +92,7 @@ body{
     }
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
     color: var(--light-blue);
 }
 
@@ -173,41 +173,68 @@ body{
 
 
 /* FEATURES STARTS */
-#features {
+#About {
     margin-bottom: 80px;
-  }
-  
-  .feature-item {
+    background-color: #060c14;
+}
+
+.feature-item {
     display: inline-block;
     margin-bottom: 60px;
-  }
-  
-  .feature-item .left-icon img {
+}
+
+.feature-item .left-icon img {
     float: left;
     margin-right: 30px;
-  }
-  
-  .feature-item .right-content {
+}
+
+.feature-item .right-content {
     display: inline;
-  }
-  
-  .feature-item .right-content h4 {
+}
+
+.feature-item .right-content h4 {
     margin-top: 0px;
     margin-bottom:  7px;
     letter-spacing: 0.25px;
-    color: #232d39;
+    color: var(--light-blue);
     font-size: 19px;
     font-weight: 600;
     text-transform: capitalize;
-  }
-  
-  .feature-item .right-content a.text-button {
+}
+
+.feature-item .right-content a.text-button {
     margin-top: 7px;
     display: inline-block;
     font-size: 13px;
     text-transform: uppercase;
-    color: #ed563b;
+    color: var(--secondary-color);
     font-weight: 500;
+}
+
+.section-heading {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 80px;
+  }
+  
+  .section-heading h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+  }
+  
+  .section-heading h2 em {
+    font-style: normal;
+    color: var(--secondary-color);
+  }
+  
+  .section-heading img {
+    margin: 20px auto;
   }
 /* FEATURES END */
 

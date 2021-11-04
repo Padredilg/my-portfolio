@@ -5,7 +5,7 @@ export default class NavbarComp extends Component {
     render() {
         return (
             <div>
-                <Navbar collapseOnSelect expand="lg" className="navbar-style">
+                <Navbar collapseOnSelect expand="lg" className="navbar-style" variant="dark">
                     <Container>
                         <Navbar.Brand href="#Home"><span className="white-span">Luiz</span> <span className="colored-span">Padredi</span></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
