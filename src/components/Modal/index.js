@@ -1,20 +1,25 @@
 import React from "react";
+import { Button, Modal } from 'react-bootstrap'
 
-function Modal({ onClose, currentProject}) {
-    const {name, tech, description, index} = currentProject;
+function ProjectModal({ onClose, currentProject }) {
+    const { name, tech, description, index } = currentProject;
     return (
-        <div className="modalBackdrop">
-            <div className="modalContainer">
-                <h3 className="modalTitle">{name}</h3>
-                <img src={require(`../../assets/projects/${index}.png`).default} alt="project" />
-                <p>Tech Used: ${tech}</p>
-                <p>{description}</p>
-                <button onClick={onClose} type="button">
-                    Close this modal
-                </button>
-            </div>
-        </div>
+        <Modal show onHide={onClose}>
+            <Modal.Header closeButton>
+                <Modal.Title>{name}</Modal.Title>
+            </Modal.Header>
+
+            <Modal.Body>
+                {description}
+            </Modal.Body>
+
+            <Modal.Footer>
+                <Button variant="secondary" onClick={onClose}>
+                    Close
+                </Button>
+            </Modal.Footer>
+        </Modal>
     );
 }
-  
-export default Modal;
+
+export default ProjectModal;

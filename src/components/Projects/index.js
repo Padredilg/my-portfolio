@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import Modal from '../Modal';
-import { Button, Modal } from 'react-bootstrap'
+import Modal from '../Modal';
+import { Button } from 'react-bootstrap'
 
 function Projects({ category }) {
   const [projects] = useState([
@@ -17,47 +17,32 @@ function Projects({ category }) {
   ]);
 
   const [show, setShow] = useState(false);
+  const [currentProject, setCurrentProject] = useState({});
+
+
   const handleClose = () => setShow(false);
-  const handleShow = (e) => {
-    
-    console.log(e.target);
-    
+  const handleShow = (currentProj) => {
+    setCurrentProject(currentProj)
     setShow(true);
   };
 
   return (
     <div>
       <div className="projects-wrapper">
-        {projects.map((image, i) => (
+        {projects.map((project, i) => (
           <div>
-            <Button onClick={handleShow}>
+            <Button onClick={()=>{handleShow(projects[i])}}>
               <img
                 src={require(`../../assets/projects/${i}.png`).default}
-                alt={image.name}
+                alt={project.name}
                 className="primary-projects"
-                key={image.name}
+                key={project.name}
               />
             </Button>
-
-            <Modal show={show} onHide={handleClose}>
-              <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
-              </Modal.Header>
-
-              <Modal.Body>
-                Body text
-              </Modal.Body>
-
-              <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                  Close
-                </Button>
-              </Modal.Footer>
-            </Modal>
-
           </div>
         ))}
       </div>
+    {show? <Modal currentProject={currentProject} onClose={ handleClose } />:null}
     </div>
   )
 }

@@ -7,7 +7,10 @@ export default class NavbarComp extends Component {
             <div>
                 <Navbar collapseOnSelect expand="lg" className="navbar-style" variant="dark">
                     <Container>
-                        <Navbar.Brand href="#Home"><span className="white-span">Luiz</span> <span className="colored-span">Padredi</span></Navbar.Brand>
+                        <Navbar.Brand href="#Home">
+                            <span className="white-span">Luiz</span>
+                            <span className="colored-span">Padredi</span>
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
