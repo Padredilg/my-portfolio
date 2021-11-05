@@ -30,7 +30,7 @@ const About = () => {
                                 </div>
                                 <div className="right-content">
                                     <h4>Why Engineering?</h4>
-                                    <p>When I started studying at Palm Beach State College I already knew that I would enjoy my STEM classNamees. However, I fell madly in love with Math when I took the first course of the Calculus trilogy, and at that moment I knew I had to become an Engineer! My efforts at keeping a 4.0 GPA as a <span classNameName="full-word">full</span>-time engineering student and <span classNameName="full-word">full</span>-time worker helped me obtain a <span classNameName="full-word-success">full</span>-scholarship through the PBSC Foundation, and I will be forever grateful for their help.</p>
+                                    <p>When I started studying at Palm Beach State College I already knew that I would enjoy my STEM classes. However, I fell madly in love with Math when I took the first course of the Calculus trilogy, and at that moment I knew I had to become an Engineer! My efforts at keeping a 4.0 GPA as a <span classNameName="full-word">full</span>-time engineering student and <span classNameName="full-word">full</span>-time worker helped me obtain a <span classNameName="full-word-success">full</span>-scholarship through the PBSC Foundation, and I will be forever grateful for their help.</p>
                                 </div>
                             </li>
                             <li className="feature-item">

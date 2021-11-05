@@ -6,9 +6,10 @@ function Modal({ onClose, currentProject}) {
         <div className="modalBackdrop">
             <div className="modalContainer">
                 <h3 className="modalTitle">{name}</h3>
-                <img src={require(`../../assets/large/${tech}/${index}.jpg`).default} alt="current tech" />
+                <img src={require(`../../assets/projects/${index}.png`).default} alt="project" />
+                <p>Tech Used: ${tech}</p>
                 <p>{description}</p>
-                <button onBlur={onClose} type="button">
+                <button onClick={onClose} type="button">
                     Close this modal
                 </button>
             </div>

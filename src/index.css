@@ -31,7 +31,7 @@ html{
 }
 body{
     font-family: Helvetica, Arial, sans-serif;
-    color: azure;
+    color: black;
 }
 /* General Page CSS Ends */
 
@@ -201,6 +201,7 @@ body{
 #About {
     margin-bottom: 5px;
     background-color: #060c14;
+    color: azure
 }
 
 .feature-item {
@@ -302,11 +303,23 @@ body{
 .section-heading .reversed-title{
     color: var(--dark-blue);
 }
+.projects-wrapper{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.primary-projects{
+    width: 400px;
+    margin: 0 10px;
+    border-radius: 2px;
+}
 /* CREATIONS STYLES END */
 
 /* Contact STYLES START */
 #Contact{
     margin-bottom: 5px;
     background-color: #060c14;
+    color: azure;
 }
+
 /* Contact STYLES END */
