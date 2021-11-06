@@ -46,7 +46,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="second-button about-creation-btn">
-                        <a href="#Creations">Would you like to check my Creations?</a>
+                        <a href="#Creations">Check my Creations</a>
                     </div>
                 </div>
             </div>
