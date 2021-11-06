@@ -13,12 +13,12 @@ const Home2 = ()=>{
                 <div class="caption">
                     <h6>( Full Stack Developer )</h6>
                     <h2>Hi, I'm <em>Luiz</em></h2>
-                    <h6>I develop softwares and create websites ;)</h6>
+                    <h6>I develop softwares and create websites.</h6>
                     <div class="main-button">
-                        <a href="#About">Would you like to know more about me?</a>
+                        <a href="#About">About Me</a>
                     </div>
                     <div class="second-button">
-                        <a href="#Creations">Would you like to check my Creations?</a>
+                        <a href="#Creations">My Creations</a>
                     </div>
                 </div>
             </div>
