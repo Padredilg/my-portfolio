@@ -286,13 +286,14 @@ body{
 }
 
 .project-image{
+    width: 280px;
     border-radius: 2px;
     box-shadow: 0px 5px 11px grey;
     transition: all .4s ease-in-out;
     background-color: white;
 }
 .featured-project{
-    width: 350px;
+    width: 430px;
 }
 .project-button:hover .project-image{
     opacity: 50%;
@@ -301,22 +302,29 @@ body{
 .project-button:hover{
     transform: scale(1.03);
 }
-.portfolio-info {
+.project-label {
     opacity: 0;
     position: absolute;
     top: 60%;
-    left: 3.1%;
+    left: 12px;
     right: 0;
     padding: 17px 0;
-    width: 93.8%;
+    width: 94.75%;
     margin: 0;
     color: #fff;
     background: rgba(0, 0, 0, 0.6);
 }
-.project-button:hover .portfolio-info {
+.project-button:hover .project-label {
 	opacity: 1;
     top: 33%;
 	transition:1.2s;
+}
+.small-label{
+    width: 92.1%;
+    top: 20%;
+}
+.project-button:hover .small-label{
+    top: 24%;
 }
 .label-title{
     text-transform: uppercase;
@@ -337,6 +345,32 @@ body{
     font-size: 12px;
     bottom: 5px;
     right: 0;
+}
+
+@media screen and (max-width: 750px){
+    .project-button{
+        width: fit-content;
+    }
+    .project-button:hover .project-image{
+        opacity: 10%;
+    }
+    .featured-project{
+        width: 91%;
+    }
+    .project-label {
+        background: none;
+        color: black;
+    }
+    .project-button:hover .project-label {
+        opacity: 1;
+        top: 25%;
+        transition:1.2s;
+    }
+    .label-read-more{
+        color: grey;
+        position: relative;
+    }
+    
 }
 /* CREATIONS STYLES END */
 

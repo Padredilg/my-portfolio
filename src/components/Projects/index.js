@@ -26,13 +26,13 @@ function Projects({ category }) {
   ]);
   const [nonFeaturedProjects] = useState([
     {
-      index: 2,
+      index: 1,
       name: 'Weather App',
-      shortdesc: '',
-      tech: '',
-      description: '',
-      github: 'https://github.com/Padredilg/',
-      deployed: ''
+      shortdesc: 'Find out the weather for any city!',
+      tech: 'HTML, CSS, more...',
+      description: 'weather description bla bla bla',
+      github: 'https://github.com/Padredilg/weather-app',
+      deployed: 'https://github.com/Padredilg/weather-app'
 
     },
   ]);
@@ -48,6 +48,7 @@ function Projects({ category }) {
 
   return (
     <div>
+      {/* featured projects */}
       <div className="projects-wrapper">
         {featuredProjects.map((project, i) => (
           <Button
@@ -61,7 +62,30 @@ function Projects({ category }) {
               className="project-image featured-project"
               key={project.name}
             />
-            <div class="portfolio-info">
+            <div class="project-label">
+              <h6 className="label-title">{project.name}</h6>
+              <p className="label-description">{project.shortdesc}</p>
+              <p className="label-read-more">Click to Read More</p>
+            </div>
+
+          </Button>
+        ))}
+      </div>
+      {/* non-featured-projects */}
+      <div className="projects-wrapper">
+        {nonFeaturedProjects.map((project, i) => (
+          <Button
+            className="project-button"
+            variant="link"
+            onClick={() => { handleShow(featuredProjects[i]) }}
+          >
+            <img
+              src={require(`../../assets/projects/${i}.png`).default}
+              alt={project.name}
+              className="project-image"
+              key={project.name}
+            />
+            <div class="project-label small-label">
               <h6 className="label-title">{project.name}</h6>
               <p className="label-description">{project.shortdesc}</p>
               <p className="label-read-more">Click to Read More</p>
