@@ -1,12 +1,13 @@
 import React from "react";
-import { Button, Modal } from 'react-bootstrap'
+import { Button, Modal, CloseButton } from 'react-bootstrap'
 
 function ProjectModal({ onClose, currentProject }) {
     const { name, index, description, tech, github, deployed } = currentProject;
     return (
-        <Modal show onHide={onClose}>
-            <Modal.Header closeButton>
+        <Modal show onHide={onClose} size="lg">
+            <Modal.Header>
                 <Modal.Title>{name}</Modal.Title>
+                <CloseButton variant="white" onClick={onClose} />
             </Modal.Header>
 
             <Modal.Body>
@@ -34,7 +35,7 @@ function ProjectModal({ onClose, currentProject }) {
                     </a>
                 </div>
                 {/* Description */}
-                <h5 className="mt-3 modal-section-title">Description:</h5> 
+                <h5 className="mt-3 modal-section-title">Description:</h5>
                 <p className="modal-text">{description}</p>
                 {/* Tech */}
                 <h5 className="mt-3 modal-section-title">Tech Used:</h5>
@@ -42,7 +43,7 @@ function ProjectModal({ onClose, currentProject }) {
             </Modal.Body>
 
             <Modal.Footer>
-                <Button variant="secondary" onClick={onClose}>
+                <Button variant="outline-light" onClick={onClose}>
                     Close
                 </Button>
             </Modal.Footer>

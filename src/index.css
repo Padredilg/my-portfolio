@@ -287,6 +287,10 @@ body{
 /* CREATIONS STYLES END */
 
 /* MODAL STARTS */
+.modal-header{
+    background-color: #060c14;
+    color: white;
+}
 .modal-image {
     width: 100%;
     border-radius: 2px;
@@ -301,18 +305,24 @@ body{
 .modal-link{
     width: 30px;
     margin: 10px 0;
-    transition: all .26s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .modal-link:hover{
     transform: scale(1.175);
 }
-.modal-text{
-    width: 90%;
-    margin: auto;
-}
-.modal-section{
+.modal-section-title{
     text-align: center;
     font-weight: bold;
+}
+.modal-text{
+    width: 100%;
+    margin: auto;
+    outline: double;
+    padding: 15px 20px;
+}
+.modal-footer{
+    background-color: #060c14;
+    margin-top: 15px;
 }
 /* MODAL ENDS */
 
