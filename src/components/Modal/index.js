@@ -26,6 +26,7 @@ function ProjectModal({ onClose, currentProject }) {
                             className="modal-link"
                         />
                     </a>
+                    {deployed ?  
                     <a href={deployed} target="_blank">
                         <img
                             src={require(`../../assets/links/deployed.png`).default}
@@ -33,6 +34,8 @@ function ProjectModal({ onClose, currentProject }) {
                             className="modal-link"
                         />
                     </a>
+                    : null}
+                    
                 </div>
                 {/* Description */}
                 <h5 className="mt-3 modal-section-title">Description:</h5>
