@@ -176,9 +176,13 @@ body{
 
 
 /* SECTION STYLES START*/
+.section{
+    width: 100%;
+}
 .section-title {
     margin: auto;
 }
+
 /* SECTION STYLES END */
 
 
@@ -420,5 +424,42 @@ body{
     margin-bottom: 5px;
     background-color: #060c14;
     color: azure;
+}
+.image-of-me {
+    width: 100%;
+    border-radius: 3px;
+}
+#contact-form {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+.name-email-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-form input{
+    background-color: transparent;
+    border: solid 2px yellow;
+}
+.contact-tag-wrapper{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+.contact-tag{
+    background: none;
+    border: solid 2px white;
+    color: white;
+    width: 100%;
+    padding: 3px;
+}
+
+.contact-tag input{
+    height: 20px;
 }
 /* CONNECT STYLES END */

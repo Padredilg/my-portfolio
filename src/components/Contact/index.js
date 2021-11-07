@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import { Container, Row, Col } from "react-bootstrap";
+
 
 function ContactForm() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = formState;
+    const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: '' });
+    const { name, email, subject, message } = formState;
 
     const [errorMessage, setErrorMessage] = useState('');
 
@@ -38,38 +40,68 @@ function ContactForm() {
     }
 
     return (
-        <section className="section" id="Contact">
+        <section className="section last-section" id="Contact">
 
             <div className="section-heading">
                 <h2>Conn<em>ect</em></h2>
-                <p>Do you like what I do? Would you like to work together or simply say hi? Send me a message below and will get back to you!</p>
+                <p>Like what you see? Let's work together or just say hi! Either way I'd love to hear from you!</p>
             </div>
 
-            <form id="contact-form" onSubmit={handleSubmit}>
-                {/* Name */}
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
-                </div>
-                {/* Email */}
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
-                </div>
-                {/* Message */}
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-                </div>
-                {/* error message */}
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                {/* submit */}
-                <button data-testid="submitButton" type="submit">Submit</button>
-            </form>
+            <Container>
+                <Row>
+                    <Col sm={7} md={5} className="m-auto">
+                        <img
+                            src={require(`../../assets/images/profile-pic-helmet.png`).default}
+                            alt='me with an astronaut helmet'
+                            className="image-of-me"
+                        />
+                    </Col>
+                    <Col xs={7} className="m-auto">
+                        <form id="contact-form" onSubmit={handleSubmit}>
+
+                            <div className="name-email-wrapper">
+                                {/* Name */}
+                                <div className="contact-tag-wrapper">
+                                    <label htmlFor="name"></label>
+                                    <input className="contact-tag" placeholder="Your name" type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                                </div>
+
+                                {/* Email */}
+                                <div className="contact-tag-wrapper">
+                                    <label htmlFor="email"></label>
+                                    <input className="contact-tag" placeholder="Your email" type="email" defaultValue={email} onBlur={handleChange} name="email" />
+                                </div>
+                            </div>
+
+                            {/* Subject */}
+                            <div className="contact-tag-wrapper">
+                                <label  htmlFor="subject"></label>
+                                <input className="contact-tag" placeholder="Subject" name="subject" defaultValue={subject} onBlur={handleChange} rows="5" />
+                            </div>
+                            
+
+                            {/* Message */}
+                            <div className="contact-tag-wrapper">
+                                <label  htmlFor="message"></label>
+                                <textarea className="contact-tag" placeholder="Message" name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                            </div>
+
+
+                            {/* error message */}
+                            {errorMessage && (
+                                <div>
+                                    <p className="error-text">{errorMessage}</p>
+                                </div>
+                            )}
+                            {/* submit */}
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </Col>
+                </Row>
+            </Container>
+
+
         </section>
     )
 }
