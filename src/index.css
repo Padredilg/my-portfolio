@@ -6,6 +6,7 @@
     --light-blue: #32adda;
     --trans-white: rgba(255,255,255,.2);
     --secondary-color: dodgerblue;
+    --hover-btn: rgb(251, 255, 32);
 }
 *{
     padding: 0;
@@ -152,8 +153,8 @@ body{
     width: 60%;
 }
 .main-button a:hover {
-    color: rgb(251, 255, 32);
-    border: 3px solid rgb(251, 255, 32);
+    color: var(--hover-btn);
+    border: 3px solid var(--hover-btn);
 }
 .second-button a {
     display: inline-block;
@@ -169,8 +170,8 @@ body{
     width: 60%;
 }
 .second-button a:hover {
-    color: rgb(251, 255, 32);
-    border: 3px solid rgb(251, 255, 32);
+    color: var(--hover-btn);
+    border: 3px solid var(--hover-btn);
 }
 /* HOME STYLES END */
 
@@ -421,7 +422,7 @@ body{
 
 /* CONNECT STYLES START */
 #Contact{
-    margin-bottom: 5px;
+    padding-bottom: 50px;
     background-color: #060c14;
     color: azure;
 }
@@ -432,14 +433,6 @@ body{
 #contact-form {
     margin-top: 50px;
     text-align: center;
-    width: 100%;
-}
-.name-email-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -461,5 +454,18 @@ body{
 
 .contact-tag input{
     height: 20px;
+}
+.contact-submit{
+    width: 100%;
+    background: none;
+    border: solid 3px var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 5px;
+    font-size: 1.2rem;
+
+}
+.contact-submit:hover{
+    border: solid 3px yellow;
+    color: yellow;
 }
 /* CONNECT STYLES END */
