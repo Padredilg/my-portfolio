@@ -43,7 +43,7 @@ function ContactForm() {
     <section className="section last-section" id="Contact">
 
       <div className="section-heading">
-        <h2>Conn<em>ect</em></h2>
+        <h2 className="reversed-title">Conn<em>ect</em></h2>
         <p>Like what you see? Let's work together or just say hi! Either way I'd love to hear from you!</p>
       </div>
 

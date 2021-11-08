@@ -423,17 +423,22 @@ body{
 /* CONNECT STYLES START */
 #Contact{
     padding-bottom: 50px;
-    background-color: #060c14;
-    color: azure;
+    background-color: white;
+    color: black;
 }
 .image-of-me {
     width: 100%;
     border-radius: 3px;
+    box-shadow: 3px 6px 7px grey;
 }
 #contact-form {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
     width: 100%;
+    background: rgba(0,0,0,.01);
+    padding: 15px 40px 40px 55px;
+    border-radius: 8px;
+    box-shadow: 4px 7px 11px grey;
 }
 
 .contact-form input{
@@ -442,12 +447,12 @@ body{
 }
 .contact-tag-wrapper{
     width: 100%;
-    margin: 0 0 20px 0;
+    margin: 20px 0 0 0;
 }
 .contact-tag{
     background: none;
-    border: solid 2px white;
-    color: white;
+    border: solid 2px var(--dark-blue);
+    color: black;
     width: 100%;
     padding: 3px;
 }
@@ -458,14 +463,15 @@ body{
 .contact-submit{
     width: 100%;
     background: none;
-    border: solid 3px var(--secondary-color);
-    color: var(--secondary-color);
+    border: solid 3px var(--dark-blue);
+    color: var(--dark-blue);
     padding: 5px;
+    margin-top: 5px;
     font-size: 1.2rem;
 
 }
 .contact-submit:hover{
-    border: solid 3px yellow;
-    color: yellow;
+    border: solid 3px var(--light-md-blue);
+    color: var(--light-md-blue);
 }
 /* CONNECT STYLES END */
