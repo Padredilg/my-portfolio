@@ -4,7 +4,7 @@ import coloredResume from '../../assets/resumes/colored-resume.pdf'
 import BnWResume from '../../assets/resumes/blacknwhite-resume.pdf'
 
 function ResumeModal({ onClose }) {
-    const [colored, setColored] = useState(false);
+    const [colored, setColored] = useState(true);
 
     const handleResume = (resume) => {
         if (resume === 'colored') {
@@ -23,9 +23,23 @@ function ResumeModal({ onClose }) {
                 <Button className="resume-style-button" variant="light" onClick={() => { handleResume('blacknwhite') }}>Black'n White</Button>
                 
                 {colored ?
-                    <a className="resume-download-button" href={coloredResume} >Download</a>
+                    <a className="resume-download-button" href={coloredResume} download >
+                        <img
+                            src={require(`../../assets/links/download.png`).default}
+                            alt=''
+                            className="donwload-link"
+                        />
+                        Download
+                    </a>
                     :
-                    <a className="resume-download-button" href={BnWResume} >Download</a>
+                    <a className="resume-download-button" href={BnWResume} download >
+                        <img
+                            src={require(`../../assets/links/download.png`).default}
+                            alt=''
+                            className="donwload-link"
+                        />
+                        Download
+                    </a>
                 }                
                 
                 

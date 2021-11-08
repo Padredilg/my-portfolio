@@ -500,6 +500,22 @@ body{
 .resume-style-button{
     margin: 0 0 0 15px;
 }
+.resume-download-button {
+    background: #edcd93;
+    color: black;
+    padding: 7px 14px;
+    border-radius: 3px;
+    margin: 0 0 0px 15px;
+}
+.donwload-link{
+    width: 18px;
+    margin: 0 6px 0px 0px;
+    padding: 0 0 3px 0;
+}
+.resume-download-button:hover {
+    background: #e9c684;
+    color: black;
+}
 /* SKILLS ENDS */
 
 
