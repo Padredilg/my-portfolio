@@ -14,7 +14,8 @@
     box-sizing: border-box;
 }
 ul{
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
 }
 li{
     list-style: none;
@@ -275,12 +276,15 @@ body{
 
 /* CREATIONS STYLES START */
 #Creations{
-    margin-bottom: 5px;
+    margin-bottom: 60px;
     background-color: white;
     color: black;
 }
 .section-heading .reversed-title{
     color: var(--dark-blue);
+}
+.skills-intro{
+    color: azure;
 }
 .projects-wrapper{
     flex-direction: row;
@@ -429,7 +433,6 @@ body{
     color: #060c14;
 }
 .skills-wrapper {
-    background: rgba(255, 255, 255, 0.919);
     margin: 0 12px 30px 12px;
     text-align: center;
     border-radius: 5px;
@@ -438,10 +441,38 @@ body{
 .skills-container{
     justify-content: center;
 }
-.tech-symbol{
-    width: 70px;
-    margin: 6px;
+.skills-title {
+    background: var(--secondary-color);
+    margin: 0;
+    padding: 6px 0px;
+    color: azure;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 19px rgba(31, 143, 255, .28);
+}
+.skills-images {
+    background: white;
+    margin: 0;
+    padding: 15px 10px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 19px rgba(255, 255, 255, .28);
+}
+.tech-symbol {
+    width: 80px;
+    margin: 10px;
     border-radius: 3px;
+    padding: 4px;
+    box-shadow: 0px 3px 7px #949494;
+}
+.listed-skills {
+    list-style: inside;
+    margin: 0 auto;
+    text-align: left;
 }
 
 /* SKILLS ENDS */

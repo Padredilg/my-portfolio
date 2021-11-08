@@ -74,18 +74,16 @@ const Skills = () => {
                     <Col lg={7} className="section-title">
                         <div className="section-heading">
                             <h2>Skil<em>ls</em></h2>
-                            <p>Checkout some of the skills and languages that I have gathered and can offer on projects that I work!</p>
+                            <p className="skills-intro">Checkout some of the skills and languages that I have gathered and can offer on projects that I work!</p>
                         </div>
                     </Col>
                 </Row>
 
                 <Row className="skills-container">
-                    <Col xs={11} md={3} className="skills-wrapper">
-                        <div>
-                            <h3>Front-End Skills</h3>
-                        </div>
+                    <Col lg={11} xl={3} className="skills-wrapper">
+                        <h3 className="skills-title">Front-End Skills</h3>
 
-                        <div>
+                        <div className="skills-images">
                             {frontEnd.map((tech) => (
                                 
                                     <img
@@ -99,12 +97,10 @@ const Skills = () => {
                         </div>
                     </Col>
 
-                    <Col xs={11} md={3} className="skills-wrapper">
-                        <div>
-                            <h3>Back-End Skills</h3>
-                        </div>
+                    <Col lg={11} xl={3} className="skills-wrapper">
+                        <h3 className="skills-title">Back-End Skills</h3>
 
-                        <div>
+                        <div className="skills-images">
                             {backEnd.map((tech) => (
                                 
                                     <img
@@ -118,15 +114,13 @@ const Skills = () => {
                         </div>
                     </Col>
 
-                    <Col xs={11} md={3} className="skills-wrapper">
-                        <div>
-                            <h3>Techniques</h3>
-                        </div>
+                    <Col lg={11} xl={3} className="skills-wrapper">
+                        <h3 className="skills-title">Techniques</h3>
 
-                        <div>
+                        <div className="skills-images">
                             <ul>
                             {techniques.map((technique) => (
-                                <li>
+                                <li className="listed-skills">
                                     {technique.technique}
                                 </li>
                             ))}
@@ -135,6 +129,13 @@ const Skills = () => {
                     </Col>
 
                 </Row>
+
+                <Row>
+                    <Col>
+                        <a href='../../assets/resumes/colored-resume' download>Click to download</a>
+                    </Col>
+                </Row>
+
             </Container>
         </section>
     )
