@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from '../Modal';
+import Modal from '../ProjectModal';
 import { Button } from 'react-bootstrap'
 
 function Projects({ category }) {

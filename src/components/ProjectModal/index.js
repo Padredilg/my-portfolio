@@ -27,13 +27,13 @@ function ProjectModal({ onClose, currentProject }) {
                         />
                     </a>
                     {deployed ?  
-                    <a href={deployed} target="_blank">
-                        <img
-                            src={require(`../../assets/links/deployed.png`).default}
-                            alt='github link'
-                            className="modal-link"
-                        />
-                    </a>
+                        <a href={deployed} target="_blank">
+                            <img
+                                src={require(`../../assets/links/deployed.png`).default}
+                                alt='github link'
+                                className="modal-link"
+                            />
+                        </a>
                     : null}
                     
                 </div>

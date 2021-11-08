@@ -19,6 +19,7 @@ export default class NavbarComp extends Component {
                                 <Nav.Link href="#Home">Home</Nav.Link>
                                 <Nav.Link href="#About">About</Nav.Link>
                                 <Nav.Link href="#Creations">Creations</Nav.Link>
+                                <Nav.Link href="#Skills">Skills</Nav.Link>
                                 <Nav.Link href="#Contact" className="connect-link">Connect</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>

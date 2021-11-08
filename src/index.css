@@ -147,7 +147,6 @@ body{
     display: inline-block;
     font-size: 15px;
     padding: 12px 20px;
-    /* background-color: #1c7aac; */
     border: 3px solid var(--light-blue);
     color: var(--light-blue);
     text-align: center;
@@ -276,6 +275,7 @@ body{
 
 /* CREATIONS STYLES START */
 #Creations{
+    padding-top: 1px;
     margin-bottom: 60px;
     background-color: white;
     color: black;
@@ -474,12 +474,38 @@ body{
     margin: 0 auto;
     text-align: left;
 }
-
+.skills-resume-button-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.skills-resume-button{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    border: 3px solid var(--light-blue);
+    color: var(--light-blue);
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+    margin-bottom: 30px;
+    width: 60%;
+    outline: none;
+    text-decoration: none;
+}
+.skills-resume-button:hover {
+    color: var(--hover-btn);
+    border: 3px solid var(--hover-btn);
+}
+.resume-style-button{
+    margin: 0 0 0 15px;
+}
 /* SKILLS ENDS */
 
 
 /* CONNECT STYLES START */
 #Contact{
+    padding-top: 1px;
     padding-bottom: 50px;
     background-color: white;
     color: black;
