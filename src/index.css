@@ -13,6 +13,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+ul{
+    padding-left: 0;
+}
 li{
     list-style: none;
 }
@@ -419,6 +422,30 @@ body{
 }
 /* MODAL ENDS */
 
+/* SKILLS STARTS */
+#Skills{
+    margin-bottom: 5px;
+    background-color: #060c14;
+    color: #060c14;
+}
+.skills-wrapper {
+    background: rgba(255, 255, 255, 0.919);
+    margin: 0 12px 30px 12px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+.skills-container{
+    justify-content: center;
+}
+.tech-symbol{
+    width: 70px;
+    margin: 6px;
+    border-radius: 3px;
+}
+
+/* SKILLS ENDS */
+
 
 /* CONNECT STYLES START */
 #Contact{
@@ -464,14 +491,16 @@ body{
     width: 100%;
     background: none;
     border: solid 3px var(--dark-blue);
-    color: var(--dark-blue);
+    color: white;
+    background: var(--dark-blue);
     padding: 5px;
     margin-top: 5px;
     font-size: 1.2rem;
-
+    transition: .3s;
 }
 .contact-submit:hover{
     border: solid 3px var(--light-md-blue);
-    color: var(--light-md-blue);
+    color: white;
+    background: var(--light-md-blue);
 }
 /* CONNECT STYLES END */
