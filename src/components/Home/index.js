@@ -12,14 +12,18 @@ const Home2 = ()=>{
             <div class="video-overlay header-text">
                 <div class="caption">
                     <h6>( Full Stack Developer )</h6>
+
                     <h2>Hi, I'm <em>Luiz</em></h2>
-                    <h6>I develop softwares and create websites.</h6>
-                    <div class="main-button">
-                        <a href="#About">About Me</a>
-                    </div>
-                    <div class="second-button">
-                        <a href="#Creations">My Creations</a>
-                    </div>
+                    
+                    <h6>I develop softwares and create websites!</h6>
+
+                    <a className="home-button" href="#About">About Me</a>
+
+                    <a className="home-button version-green" href="#Creations">Creations</a>
+
+                    <a className="home-button version-red" href="#Skills">Skills</a>
+
+
                 </div>
             </div>
 

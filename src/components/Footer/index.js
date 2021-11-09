@@ -23,21 +23,21 @@ const Footer = () => {
                     />
                 </Button>
                 {show ? <ResumeModal onClose={handleClose} /> : null}
-                <a href="https://github.com/Padredilg">
+                <a href="https://github.com/Padredilg" target="_blank">
                     <img //github
                         src={require(`../../assets/links/github2.png`).default}
                         alt='github symbol'
                         className="footer-link"
                     />
                 </a>
-                <a href="https://www.linkedin.com/in/padredilg/">
+                <a href="https://www.linkedin.com/in/padredilg/" target="_blank">
                     <img //linkedin
                         src={require(`../../assets/links/linkedin.png`).default}
                         alt='linked in symbol'
                         className="footer-link"
                     />
                 </a>
-                <a href="https://www.instagram.com/luiz_padredi/">
+                <a href="https://www.instagram.com/luiz_padredi/" target="_blank">
                     <img //indeed
                         src={require(`../../assets/links/instagram.png`).default}
                         alt='instagram symbol'

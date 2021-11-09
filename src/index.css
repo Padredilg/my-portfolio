@@ -52,6 +52,7 @@ body{
     font-size: 32px;
 }
 .navbar-dark .navbar-nav .nav-link{
+    transition: .7s;
     color: white;
 }
 .white-span{
@@ -143,7 +144,7 @@ body{
     color: var(--secondary-color);
     font-weight: 900;
 }
-.main-button a {
+.home-button{
     display: inline-block;
     font-size: 15px;
     padding: 12px 20px;
@@ -152,29 +153,28 @@ body{
     text-align: center;
     font-weight: 400;
     text-transform: uppercase;
-    transition: all .3s;
+    transition: all .8s;
     width: 60%;
+    margin-top: 12px;
 }
-.main-button a:hover {
-    color: var(--hover-btn);
-    border: 3px solid var(--hover-btn);
-}
-.second-button a {
-    display: inline-block;
-    font-size: 15px;
-    padding: 12px 20px;
-    margin-top: 15px;
+.version-green{
     border: 3px solid rgb(148, 220, 40);
     color: rgb(148, 220, 40);
-    text-align: center;
-    font-weight: 400;
-    text-transform: uppercase;
-    transition: all .3s;
-    width: 60%;
 }
-.second-button a:hover {
-    color: var(--hover-btn);
-    border: 3px solid var(--hover-btn);
+.version-red{
+    border: 3px solid rgb(232, 38, 38);
+    color: rgb(232, 38, 38);
+}
+.home-button:hover {
+    background:rgba(0, 0, 0, 0.4);
+    color: var(--light-blue);
+    transform: scale(1.03);
+}
+.version-green:hover{
+    color: rgb(148, 220, 40);
+}
+.version-red:hover{
+    color: rgb(232, 38, 38);
 }
 /* HOME STYLES END */
 
@@ -301,7 +301,7 @@ body{
     width: 280px;
     border-radius: 2px;
     box-shadow: 0px 5px 11px grey;
-    transition: all .4s ease-in-out;
+    transition:.7s;
     background-color: white;
 }
 .featured-project{
@@ -309,7 +309,6 @@ body{
 }
 .project-button:hover .project-image{
     opacity: 50%;
-    transition:1.2s;
 }
 .project-button:hover{
     transform: scale(1.03);
@@ -424,6 +423,9 @@ body{
     background-color: #060c14;
     margin-top: 15px;
 }
+.btn-outline-light{
+    transition: .7s;
+}
 /* MODAL ENDS */
 
 /* SKILLS STARTS */
@@ -500,8 +502,13 @@ body{
 .resume-style-button{
     margin: 0 0 0 15px;
 }
+.resume-style-button .btn .btn-light:hover{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
 .resume-download-button {
-    background: #edcd93;
+    background: rgb(237, 205, 147);
     color: black;
     padding: 7px 14px;
     border-radius: 3px;
@@ -512,9 +519,21 @@ body{
     margin: 0 6px 0px 0px;
     padding: 0 0 3px 0;
 }
-.resume-download-button:hover {
-    background: #e9c684;
+#colored-btn, #bnw-btn, #dwnld-btn{
+    transition: .3s;
+}
+#colored-btn:hover{
+    background-color: #00badf;
+    border: solid 1px #00badf;
+    transform: scale(1.04);
+}
+#bnw-btn:hover{
+    transform: scale(1.04);
+}
+#dwnld-btn:hover{
+    background-color: rgb(243 199 120);
     color: black;
+    transform: scale(1.04);
 }
 /* SKILLS ENDS */
 

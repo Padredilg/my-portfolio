@@ -19,11 +19,11 @@ function ResumeModal({ onClose }) {
         <Modal show onHide={onClose} size="lg">
             <Modal.Header>
                 <Modal.Title>My Resume</Modal.Title>
-                <Button className="resume-style-button" variant="info" onClick={() => { handleResume('colored') }}>Artsy</Button>
-                <Button className="resume-style-button" variant="light" onClick={() => { handleResume('blacknwhite') }}>Black'n White</Button>
+                <Button className="resume-style-button" variant="info" onClick={() => { handleResume('colored') }} id="colored-btn">Artsy</Button>
+                <Button className="resume-style-button" variant="light" onClick={() => { handleResume('blacknwhite') }} id="bnw-btn">Black'n White</Button>
                 
                 {colored ?
-                    <a className="resume-download-button" href={coloredResume} download >
+                    <a className="resume-download-button" href={coloredResume} download id="dwnld-btn">
                         <img
                             src={require(`../../assets/links/download.png`).default}
                             alt=''
@@ -32,7 +32,7 @@ function ResumeModal({ onClose }) {
                         Download
                     </a>
                     :
-                    <a className="resume-download-button" href={BnWResume} download >
+                    <a className="resume-download-button" href={BnWResume} download id="dwnld-btn">
                         <img
                             src={require(`../../assets/links/download.png`).default}
                             alt=''
