@@ -45,9 +45,8 @@ const About = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="second-button about-creation-btn">
-                        <a href="#Creations">Check my Creations</a>
-                    </div>
+                    <a className="home-button section-btn" href="#Creations">Check my Creations</a>
+
                 </div>
             </div>
         </section>

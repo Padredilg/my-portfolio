@@ -135,7 +135,7 @@ const Skills = () => {
 
         <div className="skills-resume-button-wrapper">
           <Button
-            className="skills-resume-button"
+            className="home-button section-btn"
             variant="link"
             onClick={() => { handleShow() }}
           >

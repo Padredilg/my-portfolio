@@ -266,9 +266,14 @@ body{
 .section-heading p{
     padding: 0 4%;
 }
-.about-creation-btn{
+.section-btn{
     text-align: center;
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
+    text-decoration: none;
+}
+.section-btn:hover{
+    border-color: var(--hover-btn);
+    color: var(--hover-btn);
 }
 /* ABOUT ENDS */
 
@@ -480,25 +485,6 @@ body{
     width: 100%;
     text-align: center;
 }
-.skills-resume-button{
-    display: inline-block;
-    font-size: 15px;
-    padding: 12px 20px;
-    border: 3px solid var(--light-blue);
-    color: var(--light-blue);
-    text-align: center;
-    font-weight: 400;
-    text-transform: uppercase;
-    transition: all .3s;
-    margin-bottom: 30px;
-    width: 60%;
-    outline: none;
-    text-decoration: none;
-}
-.skills-resume-button:hover {
-    color: var(--hover-btn);
-    border: 3px solid var(--hover-btn);
-}
 .resume-style-button{
     margin: 0 0 0 15px;
 }
@@ -589,12 +575,13 @@ body{
     padding: 5px;
     margin-top: 5px;
     font-size: 1.2rem;
-    transition: .3s;
+    transition: .5s;
 }
 .contact-submit:hover{
     border: solid 3px var(--light-md-blue);
     color: white;
     background: var(--light-md-blue);
+    transform: scale(1.01);
 }
 /* CONNECT STYLES END */
 
