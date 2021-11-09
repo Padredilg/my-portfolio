@@ -21,7 +21,7 @@ const About = () => {
                                 </div>
                                 <div className="right-content">
                                     <h4>How did I end up here?</h4>
-                                    <p>I grew up in Sao Paulo, Brazil, and moved to the US back in 2014. I graduated from Monarch High School 2 years later, but, due to financial hardship and other obstacles that I faced as an immigrant, I was unable to start college at the time. Therefore, I joined the work-force and took whatever jobs were available for me. That included: waiter/server, car-wash attendant, construction employee, and night-shift restaurant-cleaner. By November of 2017 I joined Eco Printing Corp, and after saving for a little more than a year, I was able to start my college career in January of 2019!</p>
+                                    <p>I grew up in São Paulo, Brazil, and moved to the US back in 2014. I graduated from Monarch High School 2 years later, but, due to financial hardship and other obstacles that I faced as an immigrant, I was unable to start college at the time. Therefore, I joined the work-force and took whatever jobs were available for me. That included: waiter/server, car-wash attendant, construction employee, and night-shift restaurant-cleaner. By November of 2017 I joined Eco Printing Corp, and after saving for a little more than a year, I was able to start my college career in January of 2019!</p>
                                 </div>
                             </li>
                             <li className="feature-item">
