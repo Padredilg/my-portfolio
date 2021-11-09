@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import ResumeModal from '../ResumeModal'
-
-
-
-
 const Skills = () => {
 
   const [frontEnd] = useState([
@@ -146,12 +142,6 @@ const Skills = () => {
             See My Resume
           </Button>
         </div>
-        {/* <Row>
-                    <Col>
-                        <a href={coloredResume} download>Click to download</a>
-                        <a href={BnWResume} download>Click to download</a>
-                    </Col>
-                </Row> */}
       {show ? <ResumeModal onClose={handleClose} /> : null}
 
       </Container>

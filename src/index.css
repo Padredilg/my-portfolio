@@ -525,6 +525,7 @@ body{
     padding-bottom: 50px;
     background-color: white;
     color: black;
+    margin: 0 0 40px 0;
 }
 .image-of-me {
     width: 100%;
@@ -577,3 +578,50 @@ body{
     background: var(--light-md-blue);
 }
 /* CONNECT STYLES END */
+
+/* FOOTER STYLES STARTS */
+#footer {
+    position: fixed;
+    display: flex;
+    height: 55px;
+    padding-top: 7px;
+    color: azure;
+    background-color: rgb(6 12 20);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+.footer-text {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 10px 0 0 0;
+}
+.footer-text span{
+    font-style: normal;
+}
+.footer-link{
+    width: 30px;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.footer-link:hover{
+    transform: scale(1.18);
+}
+@media screen and (min-width: 992px){
+    .footer-link{
+        margin-left: 50px;
+    }
+}
+.resume-footer {
+    /* margin: 0; */
+    padding: 0;
+}
+/* FOOTER STYLES END */

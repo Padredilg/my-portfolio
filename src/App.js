@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Creations from './components/Creations';
 import Skills from './components/Skills/index.js';
 import Contact from './components/Contact';
+import Footer from './components/Footer/index.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Creations />
         <Skills />
         <Contact />
+        <Footer />
       </main>
     </div>
   );
