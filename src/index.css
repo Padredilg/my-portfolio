@@ -546,7 +546,12 @@ body{
     border-radius: 8px;
     box-shadow: 4px 7px 11px grey;
 }
-
+.contact-prompt {
+    font-size: 34px;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .contact-form input{
     background-color: transparent;
     border: solid 2px yellow;
@@ -582,6 +587,13 @@ body{
     color: white;
     background: var(--light-md-blue);
     transform: scale(1.01);
+}
+.goodbye{
+    text-align: center;
+    margin: 52px 0 0 0;
+    font-weight: bold;
+    color: var(--dark-blue);
+    text-shadow: 3px 3px 8px grey;
 }
 /* CONNECT STYLES END */
 

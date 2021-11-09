@@ -59,6 +59,8 @@ function ContactForm() {
           <Col sm={12} md={7} className="m-auto">
             <form id="contact-form" onSubmit={handleSubmit}>
 
+              <h4 class="contact-prompt">Tell Me</h4>
+
                 {/* Name */}
               <div className="contact-tag-wrapper">
                 <label htmlFor="name"></label>
@@ -96,6 +98,9 @@ function ContactForm() {
               <button className="contact-submit" type="submit">Submit</button>
             </form>
           </Col>
+        </Row>
+        <Row>
+          <h3 className="goodbye">Thank you for checking my Portfolio! I hope you enjoyed it =)</h3>
         </Row>
       </Container>
 
