@@ -23,10 +23,19 @@ function Projects({ category }) {
       github: 'https://github.com/Padredilg/decide-eat',
       deployed: 'https://padredilg.github.io/decide-eat/'
     },
+    {
+      index: 2,
+      name: 'High-Tech-Match-Love',
+      shortdesc: 'Dating App for Web Developers.',
+      tech: 'Cloudinary, Firebase, GitHub API, React, CSS, JWT, GraphQL, HTML, MongoDB, Express, Bcrypt, Javascript, Styled-Components, Mongoose, Heroku, Express Session, Dotenv, Node.j, dayjs',
+      description: 'Web Developers can sign-up/login and start looking for their perfect developer counter-parts!',
+      github: 'https://github.com/Lightfooted/High-Tech-Match-Love',
+      deployed: 'https://high-tech-match.herokuapp.com/'
+    },
   ]);
   const [nonFeaturedProjects] = useState([
     {
-      index: 2,
+      index: 3,
       name: 'Weather Dashboard',
       shortdesc: 'Check the weather for any city',
       tech: 'HTML, CSS, JavaScript, Bootstrap, OpenWeatherMap API',
@@ -35,7 +44,7 @@ function Projects({ category }) {
       deployed: 'https://padredilg.github.io/weather-dashboard/'
     },
     {
-      index: 3,
+      index: 4,
       name: 'Code Quiz',
       shortdesc: 'Test your Coding Knowledge',
       tech: 'HTML, CSS, JavaScript',
@@ -44,7 +53,7 @@ function Projects({ category }) {
       deployed: 'https://padredilg.github.io/code-quiz/'
     },
     {
-      index: 4,
+      index: 5,
       name: 'Budget Tracker',
       shortdesc: 'Keep Track of your Transactions',
       tech: 'HTML, CSS, JavaScript, indexedDb, Service-Workers, manifest.json, express.js, MongoDB, Mongoose',
@@ -53,7 +62,7 @@ function Projects({ category }) {
       deployed: 'https://budget-tracker-padredilg.herokuapp.com/'
     },
     {
-      index: 5,
+      index: 6,
       name: 'Tech Blog',
       shortdesc: 'Post about new Tech and Code',
       tech: 'express, express-handlebars, CSS, JavaScript, bcrypt, connect-session-sequelize, dotenv, express-session, mysql2, sequelize',
@@ -62,7 +71,7 @@ function Projects({ category }) {
       deployed: 'https://tech-blog-padredilg.herokuapp.com/'
     },
     {
-      index: 6,
+      index: 7,
       name: 'Team Profile Generator',
       shortdesc: 'Keep track of your engineering team',
       tech: 'HTML, CSS JavaScript, Inquirer, Jest',
@@ -71,7 +80,7 @@ function Projects({ category }) {
       deployed: null
     },
     {
-      index: 7,
+      index: 8,
       name: 'Git it Done',
       shortdesc: "Track Github Repos and their open Issues",
       tech: 'HTML, CSS JavaScript',
@@ -80,7 +89,7 @@ function Projects({ category }) {
       deployed: 'https://padredilg.github.io/git-it-done/'
     },
     {
-      index: 8,
+      index: 9,
       name: 'Taskmaster',
       shortdesc: "Keep an eye on your upcoming tasks",
       tech: 'HTML, CSS, JavaScript, jQuery, Bootstrap',
@@ -89,7 +98,7 @@ function Projects({ category }) {
       deployed: 'https://padredilg.github.io/taskmaster-pro/'
     },
     {
-      index: 9,
+      index: 10,
       name: 'Pizza Hunt',
       shortdesc: "Share your favorite pizza with others",
       tech: 'HTML, CSS, JavaScript, Express.js, MongoDB, Mongoose',
@@ -98,7 +107,7 @@ function Projects({ category }) {
       deployed: 'https://pizza-hunt-padredilg.herokuapp.com/'
     },
     {
-      index: 10,
+      index: 11,
       name: 'Photo-Port',
       shortdesc: "Photo Portfolio for Lyza",
       tech: 'React and its dependencies',
@@ -107,7 +116,7 @@ function Projects({ category }) {
       deployed: 'https://padredilg.github.io/photo-port/'
     },
     {
-      index: 11,
+      index: 12,
       name: 'Password Generator',
       shortdesc: "Generate unique passwords",
       tech: 'HTML, CSS, JavaScript',
@@ -116,7 +125,7 @@ function Projects({ category }) {
       deployed: 'https://padredilg.github.io/password-generator/'
     },
     {
-      index: 12,
+      index: 13,
       name: 'My First Portfolio',
       shortdesc: "First portfolio that I created",
       tech: 'HTML, CSS',
@@ -125,7 +134,7 @@ function Projects({ category }) {
       deployed: 'https://padredilg.github.io/my-first-portfolio/'
     },
     {
-      index: 13,
+      index: 14,
       name: 'e-Commerce Back-End',
       shortdesc: "Back-end structure for an e-Commerce site",
       tech: 'JavaScript, dotenv, express, mysql2, sequelize',
